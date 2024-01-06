@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "name": "Starbucks",
+    "address": "Centrum Garden",
+    "rating": 5,
+    "foodanddrink": ["çay", "kahve", "pasta"],
+    "distance": 5,
+    "coordinates": [37.83226584629666, 30.524732239878013],
+    "hours": [
+      {
+        "days": "Pazartesi-Cuma",
+        "open": "9:00",
+        "close": "23:00"
+      },
+      {
+        "days": "Cumartesi-Pazar",
+        "open": "11:00",
+        "close": "17:00"
+      }
+    ],
+    "comments": [
+      { "author": "Sinan", "rating":1,"date": "2023-12-13", "text": "berbat" },
+      { "author": "Erkan","rating":5, "date": "2023-12-13", "text": "süper" }
+      
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Barida Cam Kafe",
+    "address": "Bizim Bölümün Karşısı",
+    "rating": 2,
+    "foodanddrink": ["çay", "kahve", "simit", "poaça"],
+    "distance": 1,
+    "coordinates": [37.83226584629666, 30.524732239878013],
+    "hours": [
+      {
+        "days": "Pazartesi-Cuma",
+        "open": "9:00",
+        "close": "23:00"
+      },
+      {
+        "days": "Cumartesi-Pazar",
+        "open": "11:00",
+        "close": "17:00"
+      }
+    ],
+    "comments": [
+      { "author": "Asım", "rating":5,"date": "2023-12-13", "text": "harika" },
+      { "author": "Mehmet","rating":4, "date": "2023-12-13", "text": "fena değil" }
+      
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Mavi Cafe",
+    "address": "Şehir Parkı Caddesi",
+    "rating": 4,
+    "foodanddrink": ["çay", "kahve", "sandviç", "kurabiye"],
+    "distance": 3,
+    "coordinates": [37.85075678901234, 30.53764567890123],
+    "hours": [
+      {
+        "days": "Pazartesi-Cuma",
+        "open": "8:00",
+        "close": "22:00"
+      },
+      {
+        "days": "Cumartesi-Pazar",
+        "open": "10:00",
+        "close": "18:00"
+      }
+    ],
+    "comments": [
+      { "author": "Ayşe", "rating":4,"date": "2023-12-14", "text": "güzel atmosfer" },
+      { "author": "Can","rating":3, "date": "2023-12-14", "text": "ortalama" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Gökyüzü Kahvesi",
+    "address": "Hava Limanı Yolu",
+    "rating": 5,
+    "foodanddrink": ["kahve", "kek", "dondurma"],
+    "distance": 8,
+    "coordinates": [37.83904567890123, 30.55075678901234],
+    "hours": [
+      {
+        "days": "Pazartesi-Cuma",
+        "open": "7:00",
+        "close": "20:00"
+      },
+      {
+        "days": "Cumartesi-Pazar",
+        "open": "12:00",
+        "close": "16:00"
+      }
+    ],
+    "comments": [
+      { "author": "Eren", "rating":5,"date": "2023-12-14", "text": "muhteşem manzara" },
+      { "author": "Zeynep","rating":5, "date": "2023-12-14", "text": "kesinlikle tavsiye ederim" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Çiçek Cafe",
+    "address": "Park Girişi",
+    "rating": 3,
+    "foodanddrink": ["çay", "pastane ürünleri", "sıcak çikolata"],
+    "distance": 2,
+    "coordinates": [37.86308901234567, 30.56786789012345],
+    "hours": [
+      {
+        "days": "Pazartesi-Cuma",
+        "open": "10:00",
+        "close": "21:00"
+      },
+      {
+        "days": "Cumartesi-Pazar",
+        "open": "11:00",
+        "close": "19:00"
+      }
+    ],
+    "comments": [
+      { "author": "Fatma", "rating":2,"date": "2023-12-14", "text": "servis kötü" },
+      { "author": "Ali","rating":4, "date": "2023-12-14", "text": "ortam güzel" }
+    ]
+  }
+]
