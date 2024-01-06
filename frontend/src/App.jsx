@@ -18,7 +18,7 @@ const App = () => {
     const [tokenCtrl, setTokenCtrl] = useState();
 
     return (
-        <div>
+        <div className="app-main">
             <Routes>
                 <Route path="/" element={<Template />}>
                     <Route path="/" element={<Home authControl={authControl}/>} />
