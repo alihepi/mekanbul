@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
-const Venue = mongoose.model("venue"); // Assuming "venue" is your model, adjust if needed
-const User = mongoose.model("user");   // Assuming "user" is your model, adjust if needed
+const Venue = mongoose.model("venue"); 
+const User = mongoose.model("user");
 
-// Function to get the user based on the authentication token
 const getUser = async (req, res, callback) => {
   try {
     if (req.auth && req.auth.email) {
@@ -20,7 +19,6 @@ const getUser = async (req, res, callback) => {
   }
 };
 
-// Function to get a specific comment for a venue
 const getComment = async (req, res) => {
   try {
     const venue = await Venue.findById(req.params.venueid).select("name comments").exec();
@@ -49,7 +47,7 @@ const getComment = async (req, res) => {
   }
 };
 
-// Function to calculate and update the overall rating for a venue
+
 const updateRating = (venueid) => {
   Venue.findById(venueid)
     .select("rating comments")
@@ -62,7 +60,7 @@ const updateRating = (venueid) => {
     });
 };
 
-// Function to calculate the last rating for a venue
+
 const calculateLastRating = (incomingVenue) => {
   if (incomingVenue.comments && incomingVenue.comments.length > 0) {
     const numComments = incomingVenue.comments.length;
@@ -73,7 +71,6 @@ const calculateLastRating = (incomingVenue) => {
   }
 };
 
-// Function to create a new comment for a venue
 const createComment = async (req, res, incomingVenue, author) => {
   try {
     incomingVenue.comments.push({
@@ -92,7 +89,7 @@ const createComment = async (req, res, incomingVenue, author) => {
   }
 };
 
-// Function to add a new comment to a venue
+
 const addComment = async (req, res) => {
   try {
     await getUser(req, res, (req, res, userName) => {
@@ -111,7 +108,7 @@ const addComment = async (req, res) => {
   }
 };
 
-// Function to delete a comment from a venue
+
 const deleteComment = async (req, res) => {
   try {
     const venue = await Venue.findById(req.params.venueid).select("comments").exec();
@@ -135,7 +132,7 @@ const deleteComment = async (req, res) => {
   }
 };
 
-// Function to update a comment for a venue
+
 const updateComment = async (req, res) => {
   try {
     const venue = await Venue.findById(req.params.venueid).select("comments").exec();
@@ -160,12 +157,12 @@ const updateComment = async (req, res) => {
   }
 };
 
-// Function to create a response with the given status and content
+
 const createResponse = (res, status, content) => {
   res.status(status).json(content);
 };
 
-// Exporting the functions for use in other parts of the application
+
 module.exports = {
   getComment,
   addComment,
