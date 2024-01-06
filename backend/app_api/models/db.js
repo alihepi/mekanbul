@@ -1,10 +1,6 @@
 var mongoose = require('mongoose');
 
-var dbURL = "mongodb+srv://ali:mekan32bul@mekanbul.slhd4ok.mongodb.net/mekanbul";
-//var URL2 = "mongodb+srv://ali:mekan32bul@mekanbul.slhd4ok.mongodb.net/?retryWrites=true&w=majority/mekanbul"
-//var dbURLlocal = "mongodb://localhost:3000/mekanbul";
-//var dbURLlocal2 = "mongodb://127.0.0.1/mekanbul";
-
+var dbURL = process.env.MONGODB_URI;
 
 mongoose.connect(dbURL);
 
