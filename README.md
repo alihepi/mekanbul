@@ -43,6 +43,7 @@ Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojiler
  - **Veritabanı:** MongoDB
  - **Kimlik Doğrulama:** JWT
 
+---
 
 ## Kütüphanelerin Yüklenmesi & Uygulamanın Çalıştırılması
 - Uygulamanın çalışması ve erekli kütüphanelerin yüklenmesi için mekanbul kök dizininde,
