@@ -5,7 +5,7 @@ import VenueDataService from "../services/VenueDataService";
 import Header from "./Header";
 import React, { useEffect } from "react";
 
-function AddComment({ authControl, tokenCtrl }) {
+function AddComment({ authControl, tokenCtrl, authName }) {
 
   const navigate = useNavigate();
 
@@ -28,12 +28,11 @@ function AddComment({ authControl, tokenCtrl }) {
   const onSubmit = (evt, token) => {
     evt.preventDefault();
     if (
-      evt.target.elements.author.value &&
       evt.target.elements.rating.value &&
       evt.target.elements.text.value
     ) {
       var newComment = {
-        author: evt.target.elements.author.value,
+        author: authName,
         rating: evt.target.elements.rating.value,
         text: evt.target.elements.text.value,
       };
