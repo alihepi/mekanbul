@@ -4,7 +4,7 @@ Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojiler
 
  * Uygulamada bulunan **"Admin Panel"** ile mekan ekleme, silme, güncelleme, gibi işlemler yapabilmektedir.
 
- * Uygulamada şuanda _kayıtlı tüm kullanıcılar_ **Admin Panel** işlemlerini yapabilmektedir. İlerleyen günlerde her kullanıcının admin paneli kullanamamasını; Sadece _**"yönetici" izni olanların**_, **Admin Panel** işlemlerini yapabileceği bir güncelleme yapmayı planlamaktayım.
+ * Uygulamada şuanda _kayıtlı tüm kullanıcılar_ **Admin Panel** işlemlerini yapabilmektedir. İlerleyen günlerde kayıtlı her kullanıcının admin paneli kullanamamasını; Sadece _**"yönetici" izni olanların**_, **Admin Panel** işlemlerini yapabileceği bir güncelleme yapmayı planlamaktayım.
 
 ---
 
