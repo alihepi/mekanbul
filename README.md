@@ -25,6 +25,9 @@ Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojiler
   + Mekan silme, 
   + Mekan güncelleme
 
+- **Yorum Yapma:**
+  +Kullanıcı girişi gerekmektedir.
+
  
 ## Kullanılan Teknolojiler
  - **Front-end:** Recat & Javascript, Bootstrap, CSS
@@ -77,7 +80,7 @@ Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojiler
 - Giriş Yapma: **POST > "/api/login"** 
   + Kullanıcı bilgileri girilmeli
   + Kullanıcı Bilgileri: e-posta, sifre
-- Kayıt Ol: **POST > "/api/signıp"**
+- Kayıt Ol: **POST > "/api/signup"**
   + Kullanıcı bilgileri girilmeli,
   + Kullanıcı Bilgileri: Ad Soyad, e-posta, sifre
 
@@ -140,6 +143,6 @@ Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojiler
 
 
 ### Teşekkür
-  Bu proje [Doç. Dr. Asım Sinan YÜKSEL](https://github.com/asimsinan) hocamızın Web Teknolojileri ve Programlama Dersindeki anlatımlarıyla ve şahsi eklemelerim sonucunda tamamlanmıştır.
+  Bu proje [Doç. Dr. Asım Sinan YÜKSEL](https://github.com/asimsinan) hocamızın Web Teknolojileri ve Programlama Dersindeki anlatımlarıyla ve kendi eklemelerim sonucunda tamamlanmıştır. Şahsi geliştirmelerim devam edecektir.
 
  - Projenin her aşamasında vermiş olduğu destekler için **Doç. Dr. Asım Sinan YÜKSEL** hocama teşekkürlerimi sunarım.
