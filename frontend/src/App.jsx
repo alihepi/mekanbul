@@ -19,15 +19,17 @@ const App = () => {
     const [tokenCtrl, setTokenCtrl] = useState();
     const [authName, setAuthName] = useState();
 
+    const [idCtrl, setIdCtrl] = useState();
+
     return (
         <div className="app-main">
             <Routes>
                 <Route path="/" element={<Template />}>
                     <Route path="/" element={<Home authControl={authControl}/>} />
                     <Route path="venue/:id" element={<VenueDetail />} />
-                    <Route path="venue/:id/comment/new" element={<AddComment authControl={authControl} tokenCtrl={tokenCtrl} authName={authName}/>} />
+                    <Route path="venue/:id/comment/new" element={<AddComment authControl={authControl} tokenCtrl={tokenCtrl} authName={authName} setIdCtrl={setIdCtrl}/>} />
                     <Route path="about" element={<About />} />
-                    <Route path="login" element={<Login setAuthControl={setAuthControl} setTokenCtrl={setTokenCtrl} setAuthName={setAuthName}/>} />
+                    <Route path="login" element={<Login setAuthControl={setAuthControl} setTokenCtrl={setTokenCtrl} setAuthName={setAuthName} idCtrl={idCtrl}/>} />
                     <Route path="signup" element={<Register setAuthControl={setAuthControl} setTokenCtrl={setTokenCtrl} setAuthName={setAuthName}/>}/>
                     <Route path="admin" element={<Admin authControl={authControl} />} />
                     <Route path="admin/addupdate/venue/:id" element={<AddUpdateVenue authControl={authControl} />} />
