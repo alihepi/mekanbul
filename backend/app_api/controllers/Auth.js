@@ -38,7 +38,7 @@ const login = async function (req, res) {
     passport.authenticate("local", (currentUser) => {
         if (currentUser) {
             let generateToken = currentUser.generateToken();
-            createResponse(res, 200, { token: generateToken });
+            createResponse(res, 200, { token: generateToken , name: currentUser.name });
         } else {
             createResponse(res, 400, { status: "Kullanıcı adı ya da şifre hatalı" });
         }
