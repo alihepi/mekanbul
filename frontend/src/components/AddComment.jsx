@@ -5,17 +5,18 @@ import VenueDataService from "../services/VenueDataService";
 import Header from "./Header";
 import React, { useEffect } from "react";
 
-function AddComment({ authControl, tokenCtrl, authName }) {
+function AddComment({ authControl, tokenCtrl, authName, setIdCtrl }) {
 
   const navigate = useNavigate();
 
+  const { id } = useParams();
+
   useEffect(() => {
     if (!authControl) {
+      setIdCtrl(id);
       navigate("/login");
     }
   }, [authControl, navigate]);
-
-  const { id } = useParams();
 
   let location = useLocation();
 
