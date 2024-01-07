@@ -69,18 +69,6 @@ function AddComment({ authControl, tokenCtrl, authName }) {
             onSubmit={(evt) => onSubmit(evt, tokenCtrl)}
           >
             <div className="form-group">
-              <label className="col-xs-10 col-sm-2 control-label">
-                Ad Soyad:
-              </label>
-              <div className="col-xs-12 col-sm-10">
-                <input
-                  className="form-control"
-                  name="author"
-                  placeholder="Ad Soyad"
-                />
-              </div>
-            </div>
-            <div className="form-group">
               <label className="col-xs-10 col-sm-2 control-label">Puan:</label>
               <div className="col-xs-12 col-sm-2">
                 <select
