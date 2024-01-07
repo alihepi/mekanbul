@@ -7,6 +7,9 @@ Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojiler
 **Uygulamanın Çalışır Haline Ulaşmak İçin:**
 [https://mekanbulapp-alihappy.vercel.app/](https://mekanbulapp-alihappy.vercel.app/)
 
+**Uygulama Backend Kısmı (Express):**
+[https://mekanbulapp-alihappy.vercel.app/](https://mekanbul-backend-alihappy.vercel.app/)
+
 
 ## Uygulama Özellikleri
  - Uygulama frontend ve backend olmak üzere iki kısımdan oluşmaktadır.
