@@ -26,7 +26,7 @@ Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojiler
   + Mekan güncelleme
 
 - **Yorum Yapma:**
-  +Kullanıcı girişi gerekmektedir.
+  + Kullanıcı girişi gerekmektedir.
 
  
 ## Kullanılan Teknolojiler
