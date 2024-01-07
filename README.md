@@ -1,6 +1,6 @@
 # MekanBul Web Uygulaması
 ---
-Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojileri ve Programlama** Dersinde yapmış olduğum insanların konumları civarındaki mekanları ve mekanların detaylarını, konumunu ve yapılan yorumları görmelerini bunlara ek olarak mekanlara yorum yapabildikleri bir web uygulamasıdır.
+Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojileri ve Programlama** Dersinde yapmış olduğum insanların konumları civarındaki mekanları ve mekanların detaylarını, konumunu ve yapılan yorumları görmelerini bunlara ek olarak mekanlara yorum yapabilmelerini sağlayan bir web uygulamasıdır.
 
  * Uygulamada bulunan **"Admin Panel"** ile mekan ekleme, silme, güncelleme, gibi işlemler yapabilmektedir.
 
