@@ -4,6 +4,8 @@ Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojiler
 
  * Uygulamada bulunan **"Admin Panel"** ile mekan ekleme, silme, güncelleme, gibi işlemler yapabilmektedir.
 
+---
+
 **Uygulamanın Çalışır Haline Ulaşmak İçin:**
 [https://mekanbulapp-alihappy.vercel.app/](https://mekanbulapp-alihappy.vercel.app/)
 
