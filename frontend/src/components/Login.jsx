@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import AdminButton from "./AdminButton";
 import VenueDataService from "../services/VenueDataService";
 
-function Login({ setAuthControl, setTokenCtrl, setAuthName }) {
+function Login({ setAuthControl, setTokenCtrl, setAuthName, idCtrl }) {
   const navigate = useNavigate();
 
   const [regBtnName, setRegBtnName] = useState("");
@@ -32,7 +32,13 @@ function Login({ setAuthControl, setTokenCtrl, setAuthName }) {
           setAuthName(response.data.name);
           setTokenCtrl(response.data.token);
           setAuthControl(true);
-          navigate("/");
+          
+          if (idCtrl) {
+            navigate(`/venue/${idCtrl}`);
+          }else{
+            navigate("/admin");
+          }
+          
         })
         .catch((error) => {
           console.error("Başarısız ", error);
