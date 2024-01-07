@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import AdminButton from "./AdminButton";
 import VenueDataService from "../services/VenueDataService";
 
-function Register({ setAuthControl, setTokenCtrl }) {
+function Register({ setAuthControl, setTokenCtrl, setAuthName }) {
   const navigate = useNavigate();
 
   const performClick = (evt) => {
@@ -29,6 +29,7 @@ function Register({ setAuthControl, setTokenCtrl }) {
         .then((response) => {
           console.log("Kayıt Başarılı");
           alert("Kayıt Başarılı");
+          setAuthName(response.data.name);
           setTokenCtrl(response.data.token);
           setAuthControl(true);
           navigate("/");
