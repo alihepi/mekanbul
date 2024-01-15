@@ -48,7 +48,7 @@ Süleyman Demirel Üniversitesi - Bilgisayar Mühendisliği | **Web Teknolojiler
 ---
 
 ## Kütüphanelerin Yüklenmesi & Uygulamanın Çalıştırılması
-- Uygulamanın çalışması ve erekli kütüphanelerin yüklenmesi için mekanbul kök dizininde,
+- Uygulamanın çalışması ve gerekli kütüphanelerin yüklenmesi için mekanbul kök dizininde,
  ```
  npm start 
  ```
